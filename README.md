@@ -13,7 +13,7 @@ should help you get started.
 
 ## Installation
 To use this library, you can either copy the source code from repo and put it in your project, or you can get it through
-JitPack. Head out to https://jitpack.io/alisson0022/SkullCreator to see some tutorials.
+JitPack. Head out to https://jitpack.io/#alisson0022/SkullCreator to see some tutorials.
 
 And here are some website that will provide texture URLs and base64 encoded strings for you to use with the library: 
 [freshcoal], [mineskin], [minecraft-heads].
