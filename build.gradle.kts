@@ -1,5 +1,6 @@
 plugins {
     java
+    `maven-publish`
 }
 
 repositories {
@@ -15,5 +16,16 @@ dependencies {
 
 group = "me.alissonlopes"
 version = "1.0.0"
-description = "skullcreator"
+description = "skullcreator library"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+publishing {
+    publications {
+        create<MavenPublication>("skullcreator") {
+            groupId = "${project.group}"
+            artifactId = "${rootProject.name}"
+            version = "${project.version}"
+            from(components["java"])
+        }
+    }
+}
