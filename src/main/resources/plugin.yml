@@ -1,8 +1,0 @@
-main: dev.dbassett.skullcreator.SkullCreatorTesterPlugin
-author: Dean B
-version: ${project.version}
-name: SkullCreatorTest
-api-version: "1.13"
-commands:
-  testskull:
-    description: "lol what"
